@@ -1,6 +1,6 @@
 public class ObjectOP {
   public static void main(String[] args) {
-    Student s1 = new Student();
+    Student s1 = new Student("sinchana");
     s1.name = "sinchana";
     s1.rollNo = 101;
     s1.Password = "abc123";

@@ -8,7 +8,7 @@ public class array2 {
         largest = numbers[i];
 
       }
-      if(smallest > numbers[i]){/
+      if(smallest > numbers[i]){
         smallest = numbers[i];
       }
     }

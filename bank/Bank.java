@@ -3,13 +3,12 @@ package bank;
 class Account{
   public String name;
   protected String email;
-  private String passwordp
+  private String password;
 
   public String getPassword(){
-    setPassword(randomPass);
     return this.password;
   }
-  public String setPassword(String pass){
+  public void setPassword(String pass){
     this.password = pass;
   }
 }

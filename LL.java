@@ -103,7 +103,7 @@ class LL{
       Node currNode = head.next;
       while(currNode != null){
         Node nextNode = currNode.next;
-        currNode.next = prev;
+        currNode.next = prevNode;
   
   
         //update
@@ -135,10 +135,10 @@ class LL{
   //   list.addFirst("this");
   //   System.out.println(list.getSize());
   // }
-  list.addLast(1);
-    list.addLast(2);
-    list.addLast(3);
-    list.addLast(4);
+  list.addLast("1");
+    list.addLast("2");
+    list.addLast("3");
+    list.addLast("4");
     list.printList();
     
     list.reverseIterate();
