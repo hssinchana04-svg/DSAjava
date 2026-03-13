@@ -39,3 +39,17 @@ class Chicken extends Animal{
     System.out.println("walks on 2 legs");
   }
 }
+
+
+interface ChessPlayer {
+  void moves();
+
+
+}
+
+class Queen implements ChessPlayer {
+  public void moves(){
+    System.out.println("up, down, left, right, diagonal (in all 4 dirns)");
+  }
+}
+

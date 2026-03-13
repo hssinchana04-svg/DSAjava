@@ -23,7 +23,6 @@ class BankAccount{
   public void setPassword(String pwd){
     password = pwd;
   }
-
 }
 
   class Pen{
